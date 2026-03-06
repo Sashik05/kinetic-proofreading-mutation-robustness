@@ -49,6 +49,12 @@ Evaluates evolutionary trajectories under different values of the steepness fact
 ### 12. `selection_strength.m`
 Visualizes how the steepness parameter \( a \) shapes the offspring probability \( P_{\text{off}} \), helping determine biologically meaningful selection regimes.
 
+### 13. `KPR_enzyme_evolution_with_1st_viability_2nd_speed.m`
+Simulates the evolutionary dynamics of a particular coding region length with a given population size under biased culling. Here, the organisms are chosen based on viability as the primary priority and the speed at which the correct product forms as the secondary priority.
+
+### 12. `correct_product_formation_rate.m`
+Provides the rate of correct product formation with given kinetic parameters.
+
 ---
 
 ## 🔧 Requirements
